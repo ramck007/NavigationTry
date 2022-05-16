@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation Try</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">Welcome to First Fragment</string>
+    <string name="second_fragment">Welcome to Second Fragment</string>
+    <string name="third_fragment">Welcome to Third Fragment</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="second_activity">Welcome to Second Activity</string>
+    <string name="welcome_to_end">Welcome to End</string>
+    <string name="end_button">End Button</string>
+    <string name="go_to_home">Go To Home</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/secondActivityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_end"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:textColor="#FF5722"/>
+
+    <ImageView
+        android:layout_width="147dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="@dimen/marginbetweenbutton"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dice5"/>
+
+    <Button
+        android:id="@+id/secondActivityEndButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_button"
+        android:layout_marginTop="@dimen/marginbetweenbutton"
+        android:textAlignment="center"
+        android:backgroundTint="#FA4F1A"/>
+
+    <Button
+        android:id="@+id/secondActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_home"
+        android:layout_marginTop="@dimen/endOption"
+        android:textAlignment="center"
+        android:backgroundTint="#FA4F1A"/>
+</LinearLayout>
